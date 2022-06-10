@@ -10,7 +10,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>@erozak</title>
       </Head>
       <Component {...pageProps} />
-    </>);
+    </>
+  );
 }
 
 export default MyApp;

@@ -45,7 +45,8 @@ module.exports = {
             emoji: '💎',
           },
           refactor: {
-            description: 'A code change that neither fixes a bug nor adds a feature',
+            description:
+              'A code change that neither fixes a bug nor adds a feature',
             title: 'Code Refactoring',
             emoji: '📦',
           },
@@ -84,7 +85,8 @@ module.exports = {
         },
       },
       subject: {
-        description: 'Write a short, imperative tense description of the change',
+        description:
+          'Write a short, imperative tense description of the change',
       },
       body: {
         description: 'Provide a longer description of the change',

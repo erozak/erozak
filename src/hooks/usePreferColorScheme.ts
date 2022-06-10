@@ -7,7 +7,9 @@ import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
  */
 export type ColorScheme = 'light' | 'dark';
 
-export  function usePrefersColorScheme(defaultScheme: ColorScheme = 'light'): ColorScheme {
+export function usePrefersColorScheme(
+  defaultScheme: ColorScheme = 'light',
+): ColorScheme {
   const [scheme, setScheme] = useState(defaultScheme);
 
   useIsomorphicLayoutEffect(() => {
