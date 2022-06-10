@@ -23,6 +23,8 @@
     "next-env.d.ts",
     "next.config.js",
     ".eslintrc.js",
+    "tailwind.config.js",
+    "postcss.config.js",
     "commitlint.config.js",
     "src/**/*.ts",
     "src/**/*.tsx",
