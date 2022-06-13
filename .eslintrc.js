@@ -4,7 +4,6 @@ const path = require('path');
 
 module.exports = {
   root: true,
-  plugins: ['import'],
   extends: [
     '@erozak/eslint-config/typescript',
     'plugin:react/recommended',
